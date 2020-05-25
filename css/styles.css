@@ -24,7 +24,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #bd5d38;
+  --primary: #EFE4FF;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -158,6 +158,9 @@ sup {
   top: -0.5em;
 }
 
+/*
+Link color: first is link as seen, second is the hover
+*/
 a {
   color: #d9ffda;
   text-decoration: none;
@@ -2470,9 +2473,10 @@ fieldset:disabled a.btn {
   pointer-events: none;
 }
 
+/*The color of the side bar*/
 .btn-primary {
   color: #fff;
-  background-color: #bd5d38;
+  background-color: #6c757d;
   border-color: #bd5d38;
 }
 .btn-primary:hover {
