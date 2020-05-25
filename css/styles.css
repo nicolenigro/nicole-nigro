@@ -24,7 +24,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #EFE4FF;
+  --primary: #bd5d38;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -37,7 +37,7 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system,  BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -158,16 +158,14 @@ sup {
   top: -0.5em;
 }
 
-/*
-Link color: first is link as seen, second is the hover
-*/
+/*Link colors: 1st is as is, 2nd is hover*/
 a {
-  color: #d9ffda;
+  color: #2FBEDA;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #a2eba4;
+  color: #16A3BF;
   text-decoration: underline;
 }
 
@@ -2473,10 +2471,9 @@ fieldset:disabled a.btn {
   pointer-events: none;
 }
 
-/*The color of the side bar*/
 .btn-primary {
   color: #fff;
-  background-color: #6c757d;
+  background-color: #bd5d38;
   border-color: #bd5d38;
 }
 .btn-primary:hover {
@@ -6100,8 +6097,9 @@ a.close.disabled {
   vertical-align: text-top !important;
 }
 
+/*Sidebar color*/
 .bg-primary {
-  background-color: #bd5d38 !important;
+  background-color: #51DEFA !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9802,8 +9800,9 @@ button.bg-dark:focus {
   color: #fff !important;
 }
 
+/*NIGRO and dates color*/
 .text-primary {
-  color: #bd5d38 !important;
+  color: #45CBE6 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
