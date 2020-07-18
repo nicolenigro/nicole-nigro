@@ -61,7 +61,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 /*Body text font */
 body {
   margin: 0;
-  font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Avenir Mid", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -161,12 +161,12 @@ sup {
 
 /*Link colors: 1st is as is, 2nd is hover*/
 a {
-  color: #2FBEDA;
+  color: #8bc7c6;
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: #16A3BF;
+  color: #489694;
   text-decoration: underline;
 }
 
@@ -360,11 +360,10 @@ template {
 }
 
 /*font-family is fonts for site, first one is NICOLE NIGRO*/
-/*Futura is for headers*/
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: "Futura", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   line-height: 1.2;
   color: #343a40;
@@ -4314,20 +4313,24 @@ input[type=button].btn-block {
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
   color: #fff;
 }
+
+/*color of side bar nav links*/
 .navbar-dark .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.5);
+  color: #89c4c3;
 }
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-  color: rgba(255, 255, 255, 0.75);
+  color: #45a1a0;
 }
 .navbar-dark .navbar-nav .nav-link.disabled {
   color: rgba(255, 255, 255, 0.25);
 }
+
+/*current nav link color*/
 .navbar-dark .navbar-nav .show > .nav-link,
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #fff;
+  color: #45a1a0;
 }
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.5);
@@ -6102,7 +6105,7 @@ a.close.disabled {
 
 /*Sidebar color*/
 .bg-primary {
-  background-color: #51DEFA !important;
+  background: linear-gradient(to top left, #d4fffe 0%, #e0ffd4 100%) !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9805,7 +9808,7 @@ button.bg-dark:focus {
 
 /*NIGRO and dates color*/
 .text-primary {
-  color: #45CBE6 !important;
+  color: #a9ebe9 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10023,11 +10026,11 @@ h3,
 h4,
 h5,
 h6 {
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
 }
 
 h1 {
-  line-height: 1;
+  line-height: 1.3;
 }
 
 p.lead {
@@ -10037,7 +10040,7 @@ p.lead {
 
 /*Subheading fonts*/
 .subheading {
-  font-family: "Gill Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 500;
   font-size: 1.5rem;
 }
@@ -10070,7 +10073,7 @@ p.lead {
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    border: 0.5rem solid #e7fcde;
   }
   #sideNav .navbar-collapse {
     display: flex;
@@ -10107,7 +10110,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #17a1bd;
+  background-color: #489694;
 }
 
 .dev-icons {
