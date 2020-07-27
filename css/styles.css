@@ -4307,11 +4307,12 @@ input[type=button].btn-block {
   color: rgba(0, 0, 0, 0.9);
 }
 
+/* nav bar font color when condensed */
 .navbar-dark .navbar-brand {
-  color: #fff;
+  color: #6c757d;
 }
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-  color: #fff;
+  color: #343a40;
 }
 
 /*color of side bar nav links*/
